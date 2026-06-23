@@ -15,7 +15,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Indra.ModularMonolith.Core" Version="1.0.0" />
+    <PackageReference Include="Company.ModularMonolith.Core" Version="1.0.0" />
   </ItemGroup>
 
 

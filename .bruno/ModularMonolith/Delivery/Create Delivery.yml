@@ -1,0 +1,22 @@
+info:
+  name: Create Delivery
+  type: http
+  seq: 1
+
+http:
+  method: POST
+  url: "{{URL}}/delivery"
+  body:
+    type: json
+    data: |-
+      {
+        "orderId": "a719453a-80da-43d6-98b5-a9f54557efee",
+        "address": "Rua das Flores, 12"
+      }
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5

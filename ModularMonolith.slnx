@@ -1,0 +1,8 @@
+<Solution>
+  <Project Path="ModularMonolith.Api/ModularMonolith.Api.csproj" Id="18f7315c-05aa-4f54-9306-317506636635" />
+  <Project Path="ModularMonolith.Contracts/ModularMonolith.Contracts.csproj" Id="6a5ec04b-ec01-4793-b040-7eccdebf0f2d" />
+  <Project Path="ModularMonolith.Core/ModularMonolith.Core.csproj" Id="34cae60a-62fe-4b63-9d20-17218f128e5b" />
+  <Project Path="ModularMonolith.Delivery/ModularMonolith.Delivery.csproj" Id="406afa33-4ef5-4ecd-9851-7a4d45aa7165" />
+  <Project Path="ModularMonolith.Financial/ModularMonolith.Financial.csproj" Id="b193a09e-202e-4140-a474-47b36186815d" />
+  <Project Path="ModularMonolith.Products/ModularMonolith.Products.csproj" Id="91e99f1f-777f-4e6d-a0ff-05aab8196e1c" />
+</Solution>

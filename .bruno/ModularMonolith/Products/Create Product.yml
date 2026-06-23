@@ -1,0 +1,23 @@
+info:
+  name: Create Product
+  type: http
+  seq: 1
+
+http:
+  method: POST
+  url: "{{URL}}/products"
+  body:
+    type: json
+    data: |-
+      {
+        "name": "Feijão",
+        "price": 19.25,
+        "stockQuantity": 95
+      }
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5
